@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<!--
+v1.0
+-->
+<html>
+    <head>
+        <title>Kakukk Color</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link href="style.css" rel="stylesheet" type="text/css"/>
+        <link href="levels.css" rel="stylesheet" type="text/css"/>
+        <script src="game.js" type="text/javascript"></script>
+        <script src="usefull.js" type="text/javascript"></script>
+    </head>
+    <body onload="default_settings();">
+    <center>
+        <div class="menufejlec">
+            <b><font size="7px">L</font><font size="6px">EVEL </font></b>
+            <font size="8px" color="red">
+            <span class="piros_3d" id="szint"></span>
+            </font>
+            
+        </div>
+                <div style="
+                     padding:5px 5px 5px 5px;
+                     background:white;
+                     -webkit-border-radius: 20px;
+                     -moz-border-radius: 20px;
+                     border-radius: 20px;
+                     width:250px;
+                     margin-top:-13px;
+                     margin-bottom: 10px;
+                     ">
+                    <table class="szintkiir" width="200px">
+                        <tr>
+                            <td align="center" >Time remaining:</td>
+                            <td><font size="6px"><span id="ido"></span><font size="5px">s</font><span id="pluszido"></span></font></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" align="center"><font size="5px">Points: <span id="pontszam">0</span><span id="pluszpont"></span></font></td>
+                        </tr>
+                        <tr><td colspan="2" align="center"><span id="diff_kiir" ></span> mode</td></tr>
+                    </table> </div>      
+        <!--<button onclick="addLevel();">+1</button>
+        <button onclick="setLevel(1);">1</button>
+        <button onclick="setLevel(2);">2</button>
+        <button onclick="setLevel(3);">3</button>
+        <button onclick="setLevel(4);">4</button>
+        <button onclick="setLevel(5);">5</button>
+        <button onclick="setLevel(6);">6</button>
+        <button onclick="setLevel(7);">7</button>
+        <button onclick="setLevel(8);">8</button>
+        <button onclick="plusz(100);">100</button>-->
+        <div id="tablazat"></div>        
+        <!--<div>Csalás: <input type="checkbox" id="chbx" onchange="csalasfu();"></div><div id="cheat"></div> -->
+       
+    </center>
+    <div class="mainmenu">
+    <button type="button" class="exit" onclick="window.location.href='index.html'">Go to Menu</button>
+    </div>
+    </body>
+</html>

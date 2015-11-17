@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Kakukk Color</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+    <script src="usefull.js" type="text/javascript"></script>
+    </head>
+    
+    <body onload="highscore_kiir();">
+        <div class="teljes">
+    <center>
+  <div class="menufejlec">Main menu</div>
+  
+  
+  <div class="mainmenu">
+      <button type="button" class="d_button" onclick="window.location.href = 'game.html'">New Game</button><br>
+      <button type="button" class="d_button" onclick="highscore_onclick();" >HighScore</button><br>
+      <button type="button" class="d_button" onclick="mode_onclick();">Difficults</button><br>
+      <div id="modes" >
+          Difficult: 
+          <select id="nehezsegek" onchange="diff_change();">
+              <option value="easy">Easy</option>
+              <option value="normal">Normal</option>
+              <option value="hard">Hard</option>
+              <option value="extreme">Extreme</option>
+          
+          </select>
+      </div>
+      <div id="highscores">
+          <div>Easy Highscore: <span id="easy_h"></span></div>
+          <div>Normal Highscore: <span id="normal_h"></span></div>
+          <div>Hard Highscore: <span id="hard_h"></span></div>
+          <div>Extreme Highscore: <span id="extreme_h"></span></div>          
+      </div>
+      <button type="button" class="exit" onclick="window.close();">Exit</button>
+   </div>
+  
+    </center>
+        </div>
+    </body>
+</html>

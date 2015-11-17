@@ -1,0 +1,17 @@
+{
+  "name": "Kakukk Color",
+  "description": "You have to find the different color.",
+  "launch_path": "/index.html",
+  "version":"1.0.1",
+  "icons": {
+    "16": "/icons/icon_16.png",
+    "48": "/icons/icon_48.png",
+    "60": "/icons/icon_60.png",
+    "128": "/icons/icon_128.png",
+    "256": "/icons/icon_256.png"
+  },
+  "developer": {
+    "name": "Daniel Obernay",
+    "url": "http://obde.hu/kakukk"
+  }
+}
